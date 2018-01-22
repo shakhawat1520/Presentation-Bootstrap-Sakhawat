@@ -1,0 +1,166 @@
+/*Navbar Section*/
+.is-sticky {
+	z-index: 200;
+}
+.is-sticky .navbar {
+	background-color: #a0d4eb;
+	transition: all 1s;
+}
+.navbar{
+	margin-bottom: 0px;
+	background-color: #fff;
+}
+.nav > li > a {
+	color:  #171414;
+}
+.nav > li > a:focus, .nav > li > a:hover {
+	background-color: #f98561;
+	color: #171414;
+	font-size: 20px;
+}
+.navbar-toggle {
+	background-color: #f98561;
+	border: 4px solid #000;
+	border-radius: 10px;
+
+}
+
+/*Carousel Section*/
+
+.carousel-inner > .item > img {
+	width: 100%;
+}
+.carousel-caption {
+	bottom: 50%;
+	transform: translateY(50%);
+}
+.carousel-caption .btn{
+	background-color: #54d154;
+	border-radius: 20px;
+}
+.carousel-control .fa {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	z-index: 5;
+	display: inline-block;
+	
+}
+.carousel-caption h1 {
+	font-size: 50px;
+}
+
+/*All button customize*/
+#allok .btn {
+	background-color: #f98561;
+	border-radius: 0px;
+	border: none;
+
+}
+#allok .scroll button {
+	background-color: #2190c1;
+	border: none;
+	color: #fff;
+	position: absolute;
+	top: 100%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+}
+.btn-default{
+	border-radius: 20px;
+	background-color: transparent;
+}
+
+.btn-primary.active {
+	border-color: red;
+}
+
+.btn-default.active:hover{
+	color: #ffffff;
+}
+
+/*Work Section customize*/
+.icon-change {
+	color: #ffffff;
+	background-color: #2190c1;
+	padding: 20px;
+	width: 110px;
+	margin: auto;
+	border-radius: 50%;
+
+}
+#Work {
+	background-color: #d1e4ed;
+}
+#Work .thumbnail{
+	background-color: #d1e4ed;
+}
+#Work .thumbnail {
+	border: none;
+}
+
+/*Portfolio Section*/
+#Portfoli0{
+	background-color: #2e3e4f;
+}
+#Portfoli0 .lekha {
+	color: #f98561;
+}
+#Portfoli0 .thumbnail {
+	border: none;
+	background-color: #2e3e4f;
+}
+#Portfoli0 .thumbnail .caption h3{
+	color: #f98561;
+}
+#Portfoli0 .thumbnail .caption p{
+	color: #fff;
+}
+#Portfoli0 .row{
+	padding: 5px;
+}
+.Portfoli0-sec .btn-primary {
+	background-color: red;
+	margin: 20px;
+}
+
+/*Offer Section*/
+#offer h2{
+	color: #2190c1;
+}
+#offer h3{
+	color: #2190c1;
+}
+#offer h4{
+	color: #f88560;
+}
+#offer {
+	background-color: #d1e4ed;
+}
+#offer hr {
+	border-top: 1px solid #000;
+	width: 80%;
+}
+
+/*Extrapart Section*/
+#extrapart {
+	background-color: #2c264a;
+}
+
+/*Last Section*/
+#lastpart {
+	background-color: #2e3e4f;
+	color: #ede6e6;
+}
+#lastpart h3 {
+	color: #f88560;
+}
+
+.row img {
+	margin-top: 20px;
+}
+
+
+
+
